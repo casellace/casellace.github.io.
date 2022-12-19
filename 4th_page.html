@@ -9,7 +9,7 @@
     function validateForm() {
       let x = document.forms["myForm"]["fname"].value;
       if (x == "") {
-        return alert("Name must be filled out");
+        return alert("Field must be filled out :)");
       }
       else 
         return alert("Thank you!");
@@ -56,8 +56,8 @@
             Or, alternatively, fill the form bellow so I can get in touch with you in an appropriate time. 
             <br><br>
 
-            <form name="myForm" action="4th_page.html" onsubmit="return validateForm()" method="post">
-              Name: <input type="text" name="fname">
+            <form name="myForma" action="4th_page.html" onsubmit="return validateForm()" method="post">
+              E-mail: <input type="text" name="fname">
               <input type="submit" value="Submit">
             </form>
 
